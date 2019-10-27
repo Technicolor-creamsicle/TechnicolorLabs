@@ -182,6 +182,14 @@ html {
 body {
   background-color: #002b36;
   margin: 0 auto;
+  overflow-y: hidden ! important;
+  overflow-x: hidden ! important;
+  background-color: #f8f8f8;
+  background-image: url('/styles/backround.jpg');
+  /*background-size: cover;*/
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
   max-width: 23cm;
   border: 1pt solid #586e75;
   padding: 1em;
@@ -200,7 +208,7 @@ a:hover {
   color: #cb4b16;
 }
 h1 {
-  color: #d33682;
+  color: #cb4b16;
 }
 h2,
 h3,
