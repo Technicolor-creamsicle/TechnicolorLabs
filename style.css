@@ -30,6 +30,7 @@ html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
+  scroll-behavior: smooth;
 }
 body {
   margin: 0;
@@ -160,6 +161,7 @@ table {
 }
 html {
   font-family: 'PT Sans', sans-serif;
+  scroll-behavior: smooth;
 }
 pre,
 code {
@@ -182,6 +184,7 @@ html {
   background-position: right;
   color: #839496;
   margin: 1em;
+  scroll-behavior: smooth;
 }
 body {
   background-color: #002b36;
