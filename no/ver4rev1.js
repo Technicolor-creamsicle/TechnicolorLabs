@@ -35,7 +35,7 @@ let body = new Zdog.Polygon({
 	radius: bodyRadius*objScale,
 	sides: 7,
 	stroke: bodyStroke*objScale,
-	color: '#000',
+	color: '#505',
 	fill: true,
 	translate: { x: canSize/2, y: (128+300+20+66)*objScale },
 	//rotate: { x: -Zdog.TAU/19 },
@@ -45,7 +45,7 @@ let body = new Zdog.Polygon({
 let head = new Zdog.Ellipse({
 	addTo: body,
 	stroke: headStroke*objScale,
-	color: "#000",
+	color: "#f0f",
 	translate: {y: headOffset*objScale },
 	//rotate: { x: -Zdog.TAU/19 },
 });
@@ -95,56 +95,6 @@ let rightEye = leftEye.copy({
 	fontSize: 128*eyeScale*objScale,
 	translate: { x: (64+eyeShift-2)*objScale, y: (-14-eyeHeight-3)*objScale, z: eyeDepth*objScale }
 });
-
-// Arms
-/*let armDistance = -75;
-let leftArmTop = new Zdog.Shape({
-	addTo: body,
-	path: [ { y: 0 }, { y: 150, x: -25 } ],
-	stroke: 64,
-	color: '#000',
-	translate: { x: -140, y: armDistance },
-});
-let leftArmBottom = new Zdog.Shape({
-	addTo: leftArmTop,
-	path: [ { y: 0, x: -25 }, { y: 120 } ],
-	stroke: 64,
-	color: '#000',
-	translate: { y: 150 },
-});
-let rightArmTop = leftArmTop.copy({
-	path: [ { y: 0 }, { y: 150, x: 25 } ],
-	translate: { x: 150, y: armDistance }
-});
-let rightArmBottom = leftArmBottom.copy({
-	path: [ { y: 0, x: 25 }, { y: 120 } ],
-	addTo: rightArmTop,
-});
-
-// Legs
-let legDistance = 150;
-let leftLegTop = new Zdog.Shape({
-	addTo: body,
-	path: [ { y: 0 }, { y: 150 } ],
-	stroke: 64,
-	color: '#000',
-	translate: { x: -54, y: legDistance },
-	rotate: { x: Zdog.TAU/64 }
-});
-let leftLegBottom = new Zdog.Shape({
-	addTo: leftLegTop,
-	path: [ { y: 0 }, { y: 120 } ],
-	stroke: 64,
-	color: '#000',
-	translate: { y: 150 },
-	rotate: { x: -Zdog.TAU/32 }
-});
-let rightLegTop = leftLegTop.copy({
-	translate: { x: 54, y: legDistance }
-});
-let rightLegBottom = leftLegBottom.copy({
-	addTo: rightLegTop,
-});*/
 
 // Animation
 function update() {
