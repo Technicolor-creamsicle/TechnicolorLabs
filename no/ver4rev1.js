@@ -35,7 +35,7 @@ let body = new Zdog.Polygon({
 	radius: bodyRadius*objScale,
 	sides: 7,
 	stroke: bodyStroke*objScale,
-	color: '#fff',
+	color: '#000',
 	fill: true,
 	translate: { x: canSize/2, y: (128+300+20+66)*objScale },
 	//rotate: { x: -Zdog.TAU/19 },
@@ -45,7 +45,7 @@ let body = new Zdog.Polygon({
 let head = new Zdog.Ellipse({
 	addTo: body,
 	stroke: headStroke*objScale,
-	color: "#FFF",
+	color: "#000",
 	translate: {y: headOffset*objScale },
 	//rotate: { x: -Zdog.TAU/19 },
 });
@@ -63,8 +63,8 @@ let mouth = new Zdog.Text({
 	stroke: 2*objScale,
 	value: ')',
 	fontSize: 148/1.5*objScale,
-	color: '#000',
-	fill: '#000',
+	color: '#FFF',
+	fill: '#FFF',
 	textBaseline: 'middle',
 	textAlign: 'center',
 	rotate: { z: Zdog.TAU/4 },
@@ -76,40 +76,12 @@ let eyes = new Zdog.Group({
 	addTo: face,
 	translate: { y: eyeOffset*objScale }
 });
-
-let leftFrameFill = new Zdog.Rect({
-	addTo: eyes,
-	width: 96*objScale,
-	height: 54*objScale,
-	translate: { x: -64*objScale },
-	stroke: 0,
-	color: '#FFF',
-	fill: true
-});
-
-let rightFrameFill = leftFrameFill.copy({
-	translate: { x: 64*objScale },
-});
-
-let leftFrame = new Zdog.Rect({
-	addTo: eyes,
-	width: 96*objScale,
-	height: 54*objScale,
-	translate: { x: -64*objScale },
-	stroke: 8*objScale,
-	color: '#000',
-});
-
-let rightFrame = leftFrame.copy({
-	translate: { x: 64*objScale },
-});
-
 let leftEye = new Zdog.Text({
 	addTo: eyes,
 	font: font,
 	stroke: 3*objScale,
 	fontSize: 64*eyeScale*objScale,
-	color: '#000',
+	color: '#FFF',
 	value: 'o',
 	fill: true,
 	textBaseline: 'middle',
@@ -130,14 +102,14 @@ let leftArmTop = new Zdog.Shape({
 	addTo: body,
 	path: [ { y: 0 }, { y: 150, x: -25 } ],
 	stroke: 64,
-	color: '#FFF',
+	color: '#000',
 	translate: { x: -140, y: armDistance },
 });
 let leftArmBottom = new Zdog.Shape({
 	addTo: leftArmTop,
 	path: [ { y: 0, x: -25 }, { y: 120 } ],
 	stroke: 64,
-	color: '#FFF',
+	color: '#000',
 	translate: { y: 150 },
 });
 let rightArmTop = leftArmTop.copy({
@@ -155,7 +127,7 @@ let leftLegTop = new Zdog.Shape({
 	addTo: body,
 	path: [ { y: 0 }, { y: 150 } ],
 	stroke: 64,
-	color: '#FFF',
+	color: '#000',
 	translate: { x: -54, y: legDistance },
 	rotate: { x: Zdog.TAU/64 }
 });
@@ -163,7 +135,7 @@ let leftLegBottom = new Zdog.Shape({
 	addTo: leftLegTop,
 	path: [ { y: 0 }, { y: 120 } ],
 	stroke: 64,
-	color: '#FFF',
+	color: '#000',
 	translate: { y: 150 },
 	rotate: { x: -Zdog.TAU/32 }
 });
