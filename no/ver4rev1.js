@@ -1,7 +1,7 @@
 // Init
 Zfont.init(Zdog);
 let font = new Zdog.Font({
-	src: './IHateComicSans.ttf'
+	src: '/IHateComicSans.ttf'
 });
 
 let model = new Zdog.Illustration({
@@ -82,7 +82,7 @@ let leftEye = new Zdog.Text({
 	stroke: 3*objScale,
 	fontSize: 64*eyeScale*objScale,
 	color: '#FFF',
-	value: 'o',
+	value: 'X',
 	fill: true,
 	textBaseline: 'middle',
 	textAlign: 'center',
@@ -90,7 +90,7 @@ let leftEye = new Zdog.Text({
 });
 
 let rightEye = leftEye.copy({
-	value: '-',
+	value: 'X',
 	stroke: 0,
 	fontSize: 128*eyeScale*objScale,
 	translate: { x: (64+eyeShift-2)*objScale, y: (-14-eyeHeight-3)*objScale, z: eyeDepth*objScale }
