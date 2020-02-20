@@ -1,77 +1,11 @@
 body {
-	background: #F6F6F6;
-  	text-align: center;
-  	-webkit-transition: background 0.4s ease-in-out;
-		-moz-transition: background 0.2s ease-in-out;
-		-o-transition: background 0.2s ease-in-out;
-		transition: background 0.4s ease-in-out;
+  padding: 25px;
+  background-color:#fdf6e3 ;
+  color:#839496;
+  font-size: 25px;
 }
 
-h2 {
-	color: #CCC;
-  	-webkit-transition: color 0.4s ease-in-out;
-		-moz-transition: color 0.2s ease-in-out;
-		-o-transition: color 0.2s ease-in-out;
-		transition: color 0.4s ease-in-out;
+.dark-mode {
+  background-color:#002b36;
+  color:#839496;
 }
-
-.day-night {
-  	width: 44px;
-  	height: 44px;
-  	margin: 10px auto;
-  	font-size: 26px;
-  	-moz-border-radius: 4px;
-		-webkit-border-radius: 4px;
-		-khtml-border-radius: 4px;
-		border-radius: 4px;
-  	background: #E6E6E6;
-  	border: none;
-  	color: #CCC; /* old browsers */
-  	color: rgba(0,0,0,0.1);
-  	-webkit-transition: all 0.4s ease-in-out;
-		-moz-transition: all 0.2s ease-in-out;
-		-o-transition: all 0.2s ease-in-out;
-		transition: all 0.4s ease-in-out;
-  	-moz-box-shadow: inset 0px -2px 0px rgba(0,0,0,0.05);
-  	-webkit-box-shadow: inset 0px -2px 0px rgba(0,0,0,0.05);
-  	box-shadow: inset 0px -2px 0px rgba(0,0,0,0.05);
-}
-
-.day-night:hover {
-  	background: #E0E0E0;
-  	color: #BBB; /* old browsers */
-  	color: rgba(0,0,0,0.1);
-  	color: #DDEEFF;
-  	text-shadow: 0px 0px 30px rgba(50,150,255,0.1), 0px 0px 10px rgba(80,180,255,0.1);
-  	-moz-box-shadow: inset 0px -2px 0px rgba(0,0,0,0);
-  	-webkit-box-shadow: inset 0px -2px 0px rgba(0,0,0,0);
-  	box-shadow: inset 0px -2px 0px rgba(0,0,0,0);
-}
-
-.night { background: #111; }
-
-.night h2 {
-  color: #666;
-}
-
-.night .day-night {
-  	background: #333;
-  	color: #FFEE00;
-  	text-shadow: 0px 0px 30px rgba(255,195,0,1), 0px 0px 10px rgba(255,195,0,1);
-  	-moz-box-shadow: inset 0px -2px 0px rgba(255,255,0,0.1);
-  	-webkit-box-shadow: inset 0px -2px 0px rgba(255,255,0,0.1);  
-  	box-shadow: inset 0px -2px 0px rgba(255,255,0,0.1);
-}
-
-.night .day-night:hover {
-  	background: #292929;
-  	-moz-box-shadow: inset 0px -2px 0px rgba(0,0,0,0);
-  	-webkit-box-shadow: inset 0px -2px 0px rgba(0,0,0,0);
-  	box-shadow: inset 0px -2px 0px rgba(0,0,0,0);
-}
-
-.btn-day, .night .btn-night { display: none; }
-.btn-night, .night .btn-day { display: block; }
-
-.span-day, .night .span-night { display: none; }
-.span-night, .night .span-day { display: inline; }
