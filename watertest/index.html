@@ -27,7 +27,14 @@
 
 	</head>
 	<body>
-		<button type="button" onclick="lights" name="lights">Lightswitch</button>
+
+		<button type="button" onclick="lights()" name="lights">Lightswitch</button>
+		<script type="text/javascript">
+			function lights() {
+				var element = document.body;
+				element.classList.toggle("dark-mode");
+			}
+		</script>
 		<h1>i am egg man</h1>
 	</body>
 </html>
