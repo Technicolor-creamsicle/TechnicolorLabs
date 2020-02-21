@@ -28,15 +28,24 @@
 		<script type="text/javascript">
 			function lights() {
 				var element = document.body;
-				element.classList.toggle("dark-mode");
+				document.body.classList.toggle("dark-mode");
+				document.button.classList.toggle("dark-mode")
 			}
 		</script>
 	</head>
 	<body>
+		<h1>AquaSafe</h1>
+		<h3>Location</h3>
+		
+		<h3>Name</h3>
+		<h3>Color</h3>
+		<h3>PH level</h3>
+		<h3>hardness</h3>
 
-		<button type="button" onclick="lights()">Lightswitch</button>
+
+		<button class="lightswitch" type="button" onclick="lights()">Lightswitch</button>
 		</script>
-		<h1>i am egg man</h1>
+
 	</body>
 	<footer>
 
