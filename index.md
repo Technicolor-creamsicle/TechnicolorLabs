@@ -1,0 +1,3 @@
+**Welcome to this heckhole that is being rebuilt**
+
+Currently this hosts only nessiscary files to keep operations going for me including assets for various projects...
