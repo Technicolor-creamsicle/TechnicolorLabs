@@ -11,6 +11,7 @@ My website is going under heavy reconstruction *Like always*. Procede at your ow
 * External stuff
     * [2a03.party](https://2a03.party) - This goes to my friend @flewkey\'s area
     * [wr2r.digital](https://wr2r.digital) - This goes to the Rutherford Radiosport Group page.
+    * [My github](https://github.com/technicolor-creamsicle) - This goes to my github. If theres any problems you can somehow find me there.
 
 ---
 
