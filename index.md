@@ -9,8 +9,8 @@ My website is going under heavy reconstruction *Like always*. Procede at your ow
 * [Cyber security related stuff](/Cyber)
 * [My random files I have stored here](/files)
 * External stuff
-    * https://2a03.party - This goes to my friend @flewkey\'s area
-    * https://wr2r.digital - This goes to the Rutherford Radiosport Group page.
+    * [2a03.party](https://2a03.party) - This goes to my friend @flewkey\'s area
+    * [wr2r.digital](https://wr2r.digital) - This goes to the Rutherford Radiosport Group page.
 
 ---
 
