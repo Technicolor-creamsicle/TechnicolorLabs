@@ -16,6 +16,6 @@ My website is going under heavy reconstruction *Like always*. Procede at your ow
 
 #//TODO List
 
-- [x] Start working on making this site again
-- [ ] Finish bot help page
-- [ ] Sleep
+[x] Start working on making this site again
+[ ] Finish bot help page
+[ ] Sleep
