@@ -4,7 +4,7 @@ My website is going under heavy reconstruction *Like always*. Procede at your ow
 
 ---
 
-#Directory of stuff
+# Directory of stuff
 
 * [Cyber security related stuff](/Cyber)
 * [My random files I have stored here](/files)
@@ -15,7 +15,7 @@ My website is going under heavy reconstruction *Like always*. Procede at your ow
 
 ---
 
-#//TODO List
+# //TODO List
 
 - [x] Start working on making this site again
 - [ ] Finish bot help page
