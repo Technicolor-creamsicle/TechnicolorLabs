@@ -6,7 +6,7 @@ If thought of like a tree there is a "Root" Directory denoted at `/`. Then after
 
 Every directory and file name is CaSe SeNsItIvE.
 
-===
+---
 
 ## Everything is a file
 
@@ -21,7 +21,7 @@ Common examples of what directories there are and what type of files are found i
 * Adminsitrative programs => `/sbin/`
 * Configutations => `/etc/` (came from word etcetera)
 
-===
+---
 
 ## Now its time to open a terminal!
 
@@ -31,7 +31,7 @@ Common examples of what directories there are and what type of files are found i
 
 If you are on a virtual machine hosted on your own computer or have a computer running ubuntu you can use the shortcut `cthl + alt + T` to open a termianl.
 
-===
+---
 
 ## What can you do with the Terminal?
 
@@ -40,7 +40,7 @@ If you are on a virtual machine hosted on your own computer or have a computer r
 * If you cant find a specific package in apt? You can build it yourself if the source code is publically published on github(lab).
 * Have more granular control of your computer and everything it does with little to no protections
 
-===
+---
 
 ## Basic Navigation in the Terminal
 
@@ -62,7 +62,7 @@ Absolute paths start from the root directory `/` an example `/home/cyberpatriot/
 
 Relative paths start from the current working directory `./` and example `./Music`. Reletive paths can also have two dots to signal the directory above `../John/`.
 
-===
+---
 
 ## Basic Navigation hands on if possible
 
@@ -81,7 +81,7 @@ cd #Change directory to home ~
 pwd #Prints the Current Working directory
 ```
 
-===
+---
 
 ## Manuals and Command usage
 
@@ -95,7 +95,7 @@ Try running `ls --help` now to take a look at the help summary for `ls`
 
 Think about what the `-1` option will do on ls then try it yourself.
 
-===
+---
 
 ## File Manipulation Commands
 
@@ -115,7 +115,7 @@ Think about what the `-1` option will do on ls then try it yourself.
 
 `rm` stands for "ReMove". This command removes a file (or directory with the right options). `rm` can remove multiple files or directories at the same time by having multiple paths after `rm`
 
-===
+---
 
 ## Basic file manipulation practical
 
@@ -147,7 +147,7 @@ file helloworld #Prints the file type of the file helloworld
 file Music/4.mp3 #Prints the file type of the file 4.mp3
 rm hello world helloworld #Removes the files created during the lesson
 ```
-===
+---
 
 ## File editing
 
@@ -178,4 +178,4 @@ Some common shortcuts:
 
 If you want to learn vim more during some free time you can run `vimtutor` into your terminal.
 
-===
+---
