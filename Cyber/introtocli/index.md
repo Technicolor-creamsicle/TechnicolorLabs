@@ -20,6 +20,7 @@ Common examples of what directories there are and what type of files are found i
 * Programs needed for basic operation => `/bin/`
 * Adminsitrative programs => `/sbin/`
 * Configutations => `/etc/` (came from word etcetera)
+* Physical media => `/media/`
 
 ---
 
@@ -147,6 +148,7 @@ file helloworld #Prints the file type of the file helloworld
 file Music/4.mp3 #Prints the file type of the file 4.mp3
 rm hello world helloworld #Removes the files created during the lesson
 ```
+
 ---
 
 ## File editing
@@ -163,19 +165,14 @@ nano is the easiest terminal text editor on ubuntu. It is a text only program an
 
 Try running `nano Documents/napier.txt` now to take a look at the file `napier.txt`. You can exit by hitting `ctrl + x` and following th prompts.
 
-### vi(m)
- 
-vi or vim is the definitely the hardest terminal text editor to master. It is a text only program and allows you to edit text files. To open a file type `vim` then the file name.
-
-Try running `vim Documents/napier.txt` now to take a look at the file `napier.txt`. You can exit by typing `:w` then and hitting enter to save changes then typing `:q` and hitting enter to quit.
-
-vi(m) also requires a keyboard command to enter into "Insert" mode on vi(m) this allows you to type text into the file and acts like nano. If you do not know where you are in vim you can hit the escape key to return to vims native state.
-
-Some common shortcuts:
-
-* `u`ndo
-* `r`eplace a single charecter
-
-If you want to learn vim more during some free time you can run `vimtutor` into your terminal.
-
 ---
+
+### Small Practical on file editing
+
+```sh
+sudo mkdir /etc/lightdm/lightdm.conf.d #This makes a folder
+sudo sh -c 'printf "[SeatDefaults]\nallow-guest=false\n" > /etc/lightdm/lightdm.conf.d/50-no-guest.conf' #Output redirection to make a config file
+cd /etc/lightdm/lightdm.conf.d/ #Change directory to to the lightdm config area
+sudo nano 50-no-guest.conf #opens the config file that was just made in nano
+```
+
