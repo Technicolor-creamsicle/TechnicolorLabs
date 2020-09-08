@@ -19,22 +19,18 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea4c1ed2-c94a-4694-9d28-409d742d8091" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/404.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/footer.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Cyber/introtocli/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Cyber/introtocli/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cyber/introtocli/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/Cyber/introtocli/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +38,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="4194" />
+    <option name="totalTimeSeconds" value="4827" />
     <option name="gitIntegration" value="true" />
     <option name="naggedAbout" value="1" />
   </component>
@@ -56,6 +52,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1hCMFAuPWaC5krnF9izO5P6afrr" />
   <component name="ProjectLevelVcsManager">
@@ -255,10 +252,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1599524086006" />
-    <state x="440" y="261" key="Vcs.Push.Dialog.v2" timestamp="1599525828792">
+    <state x="440" y="261" key="Vcs.Push.Dialog.v2" timestamp="1599531810763">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="261" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1599525828792" />
+    <state x="440" y="261" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1599531810763" />
     <state x="636" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599510547490">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

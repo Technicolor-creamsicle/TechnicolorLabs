@@ -2,13 +2,13 @@ doctype html
 meta(charset="UTF-8")
 link(rel='stylesheet', href='/styles/main.css', type='text/css')
 title Intro to CLI
-h1.neo Introduction to the Command Line and Filesystem
-h2.neo The Linux Filesystem
+h2.neo Introduction to the Command Line and Filesystem
+h2 The Linux Filesystem
 p If thought of like a tree there is a “Root” Directory denoted at 
   <code>/</code> . Then after the root it begins to branch out into directories or more commonly known as folders. On the branches there are more branches but also leaves which would be individual files.
 p Every directory and file name is CaSe SeNsItIvE.
 hr
-h2.neo Everything is a file
+h2 Everything is a file
 p So, remember how I said that there are a difference between directories and files? Well directories are also considered files because in linux everything is still a file, but the file “tree” still is there with its different levels.
 p Common examples of what directories there are and what type of files are found in them.
 ul
@@ -28,7 +28,7 @@ ul
   li Physical media => 
     <code>/media/</code>
 hr
-h2.neo Now its time to open a terminal!
+h2 Now its time to open a terminal!
 ol
   li Click the ubuntu button in the top left corner
   li Type 
@@ -39,14 +39,14 @@ ol
 p If you are on a virtual machine hosted on your own computer or have a computer running ubuntu you can use the shortcut 
   <code>ctrl + alt + T</code>  to open a terminal.
 hr
-h2.neo What can you do with the Terminal?
+h2 What can you do with the Terminal?
 ul
   li You can do anything you can do anything you can do in a Graphical application
   li Deep dive into the systems logs in real time, running a debugger (gdb is the most common), or run graphical programs in debug mode.
   li If you cant find a specific package in apt? You can build it yourself if the source code is publicly published on github(lab).
   li Have more granular control of your computer and everything it does with little to no protections
 hr
-h2.neo Basic Navigation in the Terminal
+h2 Basic Navigation in the Terminal
 h3 pwd
 p
   <code>pwd</code>  stands for “Present Working Directory”. It prints the current directory. In my personal experience it is barely used due to the current working directory being shown on the cursor of the terminal.
@@ -65,7 +65,7 @@ p Relative paths start from the current working directory
   <code>./Music</code> . Relative paths can also have two dots to signal the directory above
   <code>../John/</code> .
 hr
-h2.neo Basic Navigation hands on if possible
+h2 Basic Navigation hands on if possible
 p This basic list of commands will give you a bit of a taste of the behavior of these commands do. (The text after the pound sign 
   <code>#</code>  are comments that tell you what each command will be doing.)
 pre.hljs.language-sh
@@ -82,7 +82,7 @@ pre.hljs.language-sh
     pwd #Prints the Current Working directory
     
 hr
-h2.neo Manuals and Command usage
+h2 Manuals and Command usage
 p The 
   <code>man</code>  command is a vital tool when learning linux systems. These contain manuals that are published with most commands used. This documentation shows every option that there is to configure about a command.
 p Try running 
@@ -97,7 +97,7 @@ p Try running
 p Think about what the 
   <code>-1</code>  option will do on ls then try it yourself.
 hr
-h2.neo File Manipulation Commands
+h2 File Manipulation Commands
 h3 cp
 p
   <code>cp</code>  stands for “CoPy”. This copies a file or directory to a new location. It can copy from many sources and into one destination by listing multiple sources before the destination.
@@ -114,7 +114,7 @@ p
   <code>rm</code>  can remove multiple files or directories at the same time by having multiple paths after 
   <code>rm</code>
 hr
-h2.neo Basic file manipulation practical
+h2 Basic file manipulation practical
 p This basic list of commands will give you a bit of a taste of the behavior of these commands do. (The text after the pound sign 
   <code>#</code>  are comments that tell you what each command will be doing.)
 pre.hljs.language-sh
@@ -127,7 +127,7 @@ pre.hljs.language-sh
     rm c ./Documents/a #Removes the files c and and a from the 
     ls ./Documents #Prints the files inside the Documents directory
     
-h2.neo File Contents and Output Redirection
+h2 File Contents and Output Redirection
 p In linux there is the ability to redirect the output of a command to be sent to a file via the file redirection
 pre.hljs.language-sh
   code. 
@@ -143,7 +143,7 @@ pre.hljs.language-sh
     rm hello world helloworld #Removes the files created during the lesson
     
 hr
-h2.neo File editing
+h2 File editing
 h3 gedit
 p gedit is the easiest text editor on ubuntu. It is a graphical program and allows you to edit text files. To open a file type
   <code>gedit</code>  then the file name.
