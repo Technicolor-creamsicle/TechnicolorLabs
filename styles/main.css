@@ -36,6 +36,14 @@ a:hover {
     color: darkred;
 }
 
+code {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+code.block {
+    display: block;
+}
+
 /*Does the cool thing*/
 h1.neo {
     color: red;
