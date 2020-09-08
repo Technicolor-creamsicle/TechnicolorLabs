@@ -25,7 +25,16 @@ hr {
     border-color: red;
 }
 
+a {
+    color: red;
+}
+a:visited {
+    color: orange;
+}
 
+a:hover {
+    color: darkred;
+}
 
 /*Does the cool thing*/
 h1.neo {
