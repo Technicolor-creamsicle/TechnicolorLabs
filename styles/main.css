@@ -13,6 +13,8 @@ body {
     color: #f5f5f5;
     padding: 0 10px;
     background-color: #444444;
+    font-family: 'JetBrains Mono', monospace;
+
 }
 
 h1, h2, h3 {
@@ -36,7 +38,6 @@ h1.neo {
     27px 27px 0 mediumpurple;
     padding-right: 20px;
     padding-top: 0;
-    font-family: 'JetBrains Mono', monospace;
 }
 
 h2.neo {
@@ -50,6 +51,5 @@ h2.neo {
     27px 27px 0 mediumpurple;
     padding-right: 20px;
     padding-top: 0;
-    font-family: 'JetBrains Mono', monospace;
 }
 
