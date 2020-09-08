@@ -4,7 +4,6 @@
     src: url('/styles/JetBrainsMono/web/eot/JetBrainsMono-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('/styles/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2') format('woff2'), /* Modern Browsers */ url('/styles/JetBrainsMono/ttf/JetBrainsMono-Regular.ttf') format('truetype') /* Safari, Android, iOS */
 }
 
-
 body {
     margin: 40px auto;
     max-width: 650px;
@@ -21,10 +20,11 @@ h1, h2, h3 {
     line-height: 1.2
 }
 
-
 hr {
     border-color: red;
 }
+
+
 
 /*Does the cool thing*/
 h1.neo {
