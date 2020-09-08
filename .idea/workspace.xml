@@ -42,7 +42,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="7483" />
+    <option name="totalTimeSeconds" value="4194" />
     <option name="gitIntegration" value="true" />
     <option name="naggedAbout" value="1" />
   </component>
@@ -51,7 +51,6 @@
       <list>
         <option value="JavaScript File" />
         <option value="CSS File" />
-        <option value="Pug File" />
       </list>
     </option>
   </component>
@@ -95,7 +94,6 @@
       <command value="npm init" />
       <command value="npm install markdown-to-pug pug " />
       <command value="npm shrinkwrap" />
-      <command value="md2pug" />
     </option>
   </component>
   <component name="RunManager">
@@ -112,7 +110,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599510515290</updated>
       <workItem from="1599510516615" duration="1228000" />
-      <workItem from="1599512132764" duration="6680000" />
+      <workItem from="1599512132764" duration="3300000" />
     </task>
     <task id="LOCAL-00001" summary="Beeg changes">
       <created>1599525273708</created>
@@ -163,14 +161,7 @@
       <option name="project" value="LOCAL" />
       <updated>1599526099197</updated>
     </task>
-    <task id="LOCAL-00008" summary="style™️">
-      <created>1599527159335</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1599527159335</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,34 +199,26 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="502" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1599524687507" />
-    <state x="627" y="237" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1599531253196">
+    <state x="491" y="310" width="698" height="675" key="EditFileWatcherDialog" timestamp="1599524084671">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="627" y="237" key="#com.intellij.ide.macro.MacrosDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1599531253196" />
-    <state x="608" y="366" width="463" height="485" key="#com.intellij.tools.ToolEditorDialog" timestamp="1599529296903">
+    <state x="491" y="310" width="698" height="675" key="EditFileWatcherDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1599524084671" />
+    <state width="1659" height="358" key="GridCell.Tab.0.bottom" timestamp="1599526027792">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="608" y="366" width="463" height="485" key="#com.intellij.tools.ToolEditorDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1599529296903" />
-    <state x="491" y="310" width="698" height="675" key="EditFileWatcherDialog" timestamp="1599531255360">
+    <state width="1659" height="358" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1599526027792" />
+    <state width="1659" height="358" key="GridCell.Tab.0.center" timestamp="1599526027791">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="491" y="310" width="698" height="675" key="EditFileWatcherDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1599531255360" />
-    <state width="1659" height="290" key="GridCell.Tab.0.bottom" timestamp="1599529311846">
+    <state width="1659" height="358" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1599526027791" />
+    <state width="1659" height="358" key="GridCell.Tab.0.left" timestamp="1599526027790">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1659" height="290" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1599529311846" />
-    <state width="1659" height="290" key="GridCell.Tab.0.center" timestamp="1599529311845">
+    <state width="1659" height="358" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1599526027790" />
+    <state width="1659" height="358" key="GridCell.Tab.0.right" timestamp="1599526027791">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1659" height="290" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1599529311845" />
-    <state width="1659" height="290" key="GridCell.Tab.0.left" timestamp="1599529311845">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1659" height="290" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1599529311845" />
-    <state width="1659" height="290" key="GridCell.Tab.0.right" timestamp="1599529311846">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1659" height="290" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1599529311846" />
+    <state width="1659" height="358" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1599526027791" />
     <state width="1659" height="358" key="GridCell.Tab.1.bottom" timestamp="1599526027794">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -268,29 +251,21 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1659" height="358" key="GridCell.Tab.2.right/0.0.1680.1050@0.0.1680.1050" timestamp="1599526027795" />
-    <state x="341" y="164" key="SettingsEditor" timestamp="1599531256625">
+    <state x="341" y="164" key="SettingsEditor" timestamp="1599524086006">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1599531256625" />
-    <state x="440" y="261" key="Vcs.Push.Dialog.v2" timestamp="1599527165093">
+    <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1599524086006" />
+    <state x="440" y="261" key="Vcs.Push.Dialog.v2" timestamp="1599525828792">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="261" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1599527165093" />
+    <state x="440" y="261" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1599525828792" />
     <state x="636" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599510547490">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="636" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050@0.0.1680.1050" timestamp="1599510547490" />
-    <state x="505" y="248" width="670" height="675" key="run.anything.popup" timestamp="1599529307841">
+    <state x="505" y="248" width="670" height="675" key="run.anything.popup" timestamp="1599510926076">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="248" width="670" height="675" key="run.anything.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1599529307841" />
-    <state x="640" y="513" key="scopes" timestamp="1599529208530">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="640" y="513" key="scopes/0.0.1680.1050@0.0.1680.1050" timestamp="1599529208530" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1599530211822">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1599530211822" />
+    <state x="505" y="248" width="670" height="675" key="run.anything.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1599510926076" />
   </component>
 </project>
