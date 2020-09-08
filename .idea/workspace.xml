@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ea4c1ed2-c94a-4694-9d28-409d742d8091" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Cyber/archive2020/Advanced acad logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cyber/archive2020/General logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cyber/archive2020/Staff logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cyber/archive2020/Standard acad logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cyber/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cyber/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cyber/introtocli/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cyber/introtocli/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rewrite scripts/md-pug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/ttf/JetBrainsMono-Bold-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/ttf/JetBrainsMono-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/ttf/JetBrainsMono-ExtraBold-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/ttf/JetBrainsMono-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/ttf/JetBrainsMono-ExtraLight-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/ttf/JetBrainsMono-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/ttf/JetBrainsMono-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/ttf/JetBrainsMono-Light-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/ttf/JetBrainsMono-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/ttf/JetBrainsMono-Medium-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/ttf/JetBrainsMono-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/ttf/JetBrainsMono-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/ttf/JetBrainsMono-SemiLight-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/ttf/JetBrainsMono-SemiLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/ttf/No ligatures/JetBrainsMonoNL-Bold-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/ttf/No ligatures/JetBrainsMonoNL-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/ttf/No ligatures/JetBrainsMonoNL-ExtraBold-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/ttf/No ligatures/JetBrainsMonoNL-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/ttf/No ligatures/JetBrainsMonoNL-ExtraLight-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/ttf/No ligatures/JetBrainsMonoNL-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/ttf/No ligatures/JetBrainsMonoNL-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/ttf/No ligatures/JetBrainsMonoNL-Light-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/ttf/No ligatures/JetBrainsMonoNL-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/ttf/No ligatures/JetBrainsMonoNL-Medium-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/ttf/No ligatures/JetBrainsMonoNL-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/ttf/No ligatures/JetBrainsMonoNL-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/ttf/No ligatures/JetBrainsMonoNL-SemiLight-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/ttf/No ligatures/JetBrainsMonoNL-SemiLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/ttf/Variable/JetBrainsMono-Variable-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/ttf/Variable/JetBrainsMono-Variable.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/eot/JetBrainsMono-Bold-Italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/eot/JetBrainsMono-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/eot/JetBrainsMono-ExtraBold-Italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/eot/JetBrainsMono-ExtraBold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/eot/JetBrainsMono-ExtraLight-Italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/eot/JetBrainsMono-ExtraLight.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/eot/JetBrainsMono-Italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/eot/JetBrainsMono-Light-Italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/eot/JetBrainsMono-Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/eot/JetBrainsMono-Medium-Italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/eot/JetBrainsMono-Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/eot/JetBrainsMono-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/eot/JetBrainsMono-SemiLight-Italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/eot/JetBrainsMono-SemiLight.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/woff/JetBrainsMono-Bold-Italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/woff/JetBrainsMono-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/woff/JetBrainsMono-ExtraBold-Italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/woff/JetBrainsMono-ExtraBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/woff/JetBrainsMono-ExtraLight-Italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/woff/JetBrainsMono-ExtraLight.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/woff/JetBrainsMono-Italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/woff/JetBrainsMono-Light-Italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/woff/JetBrainsMono-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/woff/JetBrainsMono-Medium-Italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/woff/JetBrainsMono-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/woff/JetBrainsMono-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/woff/JetBrainsMono-SemiLight-Italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/woff/JetBrainsMono-SemiLight.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/woff2/JetBrainsMono-Bold-Italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/woff2/JetBrainsMono-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/woff2/JetBrainsMono-ExtraBold-Italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/woff2/JetBrainsMono-ExtraBold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/woff2/JetBrainsMono-ExtraLight-Italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/woff2/JetBrainsMono-ExtraLight.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/woff2/JetBrainsMono-Italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/woff2/JetBrainsMono-Light-Italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/woff2/JetBrainsMono-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/woff2/JetBrainsMono-Medium-Italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/woff2/JetBrainsMono-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/woff2/JetBrainsMono-SemiLight-Italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/JetBrainsMono/web/woff2/JetBrainsMono-SemiLight.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cyber/Academy 2020 - Linux 1.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/Cyber/archive2020/Academy 2020 - Linux 1.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cyber/Academy 2020 - Windows 1.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/Cyber/archive2020/Academy 2020 - Windows 1.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cyber/Academy 2020 - Windows 2.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/Cyber/archive2020/Academy 2020 - Windows 2.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cyber/Advanced acad Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cyber/General Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cyber/Instructor logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cyber/archive2020/Instructor logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cyber/Staff Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cyber/Standard Acad logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cyber/aurora backround.mov" beforeDir="false" afterPath="$PROJECT_DIR$/Cyber/archive2020/aurora backround.mov" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cyber/big.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Cyber/archive2020/big.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cyber/index.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DarkyenusTimeTracker">
+    <option name="totalTimeSeconds" value="2977" />
+    <option name="gitIntegration" value="true" />
+    <option name="naggedAbout" value="1" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hCMFAuPWaC5krnF9izO5P6afrr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Cyber/archive2020" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="npm intit" />
+      <command value="npm init" />
+      <command value="npm install markdown-to-pug pug " />
+      <command value="npm shrinkwrap" />
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ea4c1ed2-c94a-4694-9d28-409d742d8091" name="Default Changelist" comment="" />
+      <created>1599510515290</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599510515290</updated>
+      <workItem from="1599510516615" duration="1228000" />
+      <workItem from="1599512132764" duration="1930000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="544" y="255" key="#Servers" timestamp="1599512364289">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="544" y="255" key="#Servers/0.0.1680.1050@0.0.1680.1050" timestamp="1599512364289" />
+    <state x="502" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599524687507">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="502" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1599524687507" />
+    <state x="491" y="310" width="698" height="675" key="EditFileWatcherDialog" timestamp="1599524084671">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="491" y="310" width="698" height="675" key="EditFileWatcherDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1599524084671" />
+    <state width="1659" height="290" key="GridCell.Tab.0.bottom" timestamp="1599510907050">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="290" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1599510907050" />
+    <state width="1659" height="290" key="GridCell.Tab.0.center" timestamp="1599510907048">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="290" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1599510907048" />
+    <state width="1659" height="290" key="GridCell.Tab.0.left" timestamp="1599510907047">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="290" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1599510907047" />
+    <state width="1659" height="290" key="GridCell.Tab.0.right" timestamp="1599510907049">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="290" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1599510907049" />
+    <state x="341" y="164" key="SettingsEditor" timestamp="1599524086006">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1599524086006" />
+    <state x="440" y="261" key="Vcs.Push.Dialog.v2" timestamp="1599510538642">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="261" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1599510538642" />
+    <state x="636" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599510547490">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="636" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050@0.0.1680.1050" timestamp="1599510547490" />
+    <state x="505" y="248" width="670" height="675" key="run.anything.popup" timestamp="1599510926076">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="248" width="670" height="675" key="run.anything.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1599510926076" />
+  </component>
+</project>

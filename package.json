@@ -1,0 +1,27 @@
+{
+  "name": "technicolor-creamsicle.github.io",
+  "version": "1.0.0",
+  "description": "Scripts and stuff being used for the rebuild of my site!",
+  "main": "./rewrite scripts/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Technicolor-creamsicle/Technicolor-creamsicle.github.io.git"
+  },
+  "keywords": [
+    "scripts"
+  ],
+  "author": "Technicolor",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/Technicolor-creamsicle/Technicolor-creamsicle.github.io/issues"
+  },
+  "homepage": "https://github.com/Technicolor-creamsicle/Technicolor-creamsicle.github.io#readme",
+  "dependencies": {
+    "markdown-to-pug": "^1.0.11",
+    "markdown-to-pug-cli": "^2.0.0",
+    "pug": "^3.0.0"
+  }
+}
