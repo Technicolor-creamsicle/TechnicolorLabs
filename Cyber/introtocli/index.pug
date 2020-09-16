@@ -1,6 +1,12 @@
 doctype html
 meta(charset="UTF-8")
 link(rel='stylesheet', href='/styles/main.css', type='text/css')
+// importing fun stuff
+link(rel="stylesheet", href="https//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/default.min.css")
+script(src="https//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js")
+script(charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/languages/sh.min.js")
+
+
 title Intro to CLI
 h2.neo Introduction to the Command Line and Filesystem
 h2 The Linux Filesystem
@@ -69,7 +75,7 @@ h2 Basic Navigation hands on if possible
 p This basic list of commands will give you a bit of a taste of the behavior of these commands do. (The text after the pound sign 
   <code>#</code>  are comments that tell you what each command will be doing.)
 pre.hljs.language-sh
-  code. 
+  code.block.
     cd #Change directory to home ~
     pwd #Prints the current directory
     ls #Prints whats inside the current directory
@@ -118,7 +124,7 @@ h2 Basic file manipulation practical
 p This basic list of commands will give you a bit of a taste of the behavior of these commands do. (The text after the pound sign 
   <code>#</code>  are comments that tell you what each command will be doing.)
 pre.hljs.language-sh
-  code. 
+  code.block.
     cd #Changes directory to home
     touch Documents/a #Creates the file a inside Documents
     cp Documents/a b #Copys the file a to the file b
@@ -130,7 +136,7 @@ pre.hljs.language-sh
 h2 File Contents and Output Redirection
 p In linux there is the ability to redirect the output of a command to be sent to a file via the file redirection
 pre.hljs.language-sh
-  code. 
+  code.block.
     cd #Changes your directory to your home directory
     echo "Hello" > hello #Prints hello to the file hello
     echo "World!" > world #Prints world to the file world
@@ -160,7 +166,7 @@ p Try running
 hr
 h3 Small Practical on file editing
 pre.hljs.language-sh
-  code. 
+  code.block.
     sudo mkdir /etc/lightdm/lightdm.conf.d #This makes a folder
     sudo sh -c 'printf "[SeatDefaults]\nallow-guest=false\n" > /etc/lightdm/lightdm.conf.d/50-no-guest.conf' #Output redirection to make a config file
     cd /etc/lightdm/lightdm.conf.d/ #Change directory to to the lightdm config area
