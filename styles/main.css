@@ -25,9 +25,11 @@ hr {
     border-color: red;
 }
 
+/*Links*/
 a {
     color: red;
 }
+
 a:visited {
     color: orange;
 }
@@ -36,6 +38,7 @@ a:hover {
     color: darkred;
 }
 
+/*Code blocks*/
 code {
     background-color: rgba(255, 0, 0, 0.5);
 }
@@ -43,6 +46,21 @@ code {
 code.block {
     display: block;
     overflow: scroll;
+}
+
+/*Divs*/
+div.spacer {
+    height: 150px;
+    visibility: visible;
+}
+
+div.footer {
+    background-color: rgba(255, 0, 0, 0.5);
+    line-height: 100%;
+}
+
+div.footer h5 {
+    padding: 10px
 }
 
 /*Does the cool thing*/
