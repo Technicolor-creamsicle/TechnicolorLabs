@@ -57,6 +57,7 @@ h1.neo {
     27px 27px 0 mediumpurple;
     padding-right: 20px;
     padding-top: 0;
+    alignment: center;
 }
 
 h2.neo {
@@ -70,5 +71,31 @@ h2.neo {
     27px 27px 0 mediumpurple;
     padding-right: 20px;
     padding-top: 0;
+    alignment: center;
 }
 
+h1.neo.trans {
+    color: cornflowerblue;
+    font-size: 120px;
+    text-shadow: 2px 0 0 currentColor,
+    7px 7px 0 hotpink,
+    12px 12px 0 white,
+    17px 17px 0 hotpink,
+    22px 22px 0 cornflowerblue;
+    padding-right: 20px;
+    padding-top: 0;
+    alignment: center;
+}
+
+h2.neo.trans {
+    color: cornflowerblue;
+    font-size: 60px;
+    text-shadow: 2px 0 0 currentColor,
+    7px 7px 0 hotpink,
+    12px 12px 0 white,
+    17px 17px 0 hotpink,
+    22px 22px 0 cornflowerblue;
+    padding-right: 20px;
+    padding-top: 0;
+    alignment: center;
+}
