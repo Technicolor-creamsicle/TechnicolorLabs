@@ -3,7 +3,7 @@ import {rename} from 'fs'
 
 console.log("Starting build!")
 
-exec("pug --out ./dist/ --basedir ./site/ ./site", {},
+exec("'node_modules/pug-cli/index.js' --out ./dist/ --basedir ./site/ ./site", {},
     (error, stdout, stderr) => {
         if (error) {
             console.error('exec error: ' + error);
