@@ -1,0 +1,175 @@
+doctype html
+head
+    meta(charset="UTF-8")
+    link(rel='stylesheet', href='/styles/main.css', type='text/css')
+    // importing fun stuff
+title Intro to CLI
+h2.neo Introduction to the Command Line and Filesystem
+h2 The Linux Filesystem
+p If thought of like a tree there is a “Root” Directory denoted at 
+    <code>/</code> . Then after the root it begins to branch out into directories or more commonly known as folders. On the branches there are more branches but also leaves which would be individual files.
+p Every directory and file name is CaSe SeNsItIvE.
+hr
+h2 Everything is a file
+p So, remember how I said that there are a difference between directories and files? Well directories are also considered files because in linux everything is still a file, but the file “tree” still is there with its different levels.
+p Common examples of what directories there are and what type of files are found in them.
+ul
+    li Devices =>
+        <code>/dev/</code>
+    li Processes =>
+        <code>/proc/</code>
+    li Most user owned files =>
+        <code>/home/</code>  (or)
+        <code>/users/</code>
+    li Programs needed for basic operation =>
+        <code>/bin/</code>
+    li Administrative programs =>
+        <code>/sbin/</code>
+    li Configurations =>
+        <code>/etc/</code>  (came from word etcetera)
+    li Physical media =>
+        <code>/media/</code>
+hr
+h2 Now its time to open a terminal!
+ol
+    li Click the ubuntu button in the top left corner
+    li Type
+        <code>terminal</code>
+    li Hit
+        <code>enter</code>  or click the icon labeled
+        <code>Terminal</code>
+p If you are on a virtual machine hosted on your own computer or have a computer running ubuntu you can use the shortcut 
+    <code>ctrl + alt + T</code>  to open a terminal.
+hr
+h2 What can you do with the Terminal?
+ul
+    li You can do anything you can do anything you can do in a Graphical application
+    li Deep dive into the systems logs in real time, running a debugger (gdb is the most common), or run graphical programs in debug mode.
+    li If you cant find a specific package in apt? You can build it yourself if the source code is publicly published on github(lab).
+    li Have more granular control of your computer and everything it does with little to no protections
+hr
+h2 Basic Navigation in the Terminal
+h3 pwd
+p
+    <code>pwd</code>  stands for “Present Working Directory”. It prints the current directory. In my personal experience it is barely used due to the current working directory being shown on the cursor of the terminal.
+h3 ls
+p
+    <code>ls</code>  stands for “List Segments” if it is run with no options will list all non hidden files or directories inside of the working directory. If you put a directory after the command it will run in that directory.
+h3 cd
+p
+    <code>cd</code>  stands for “change directory”. Most of the time you will be running cd with a directory as an option to brings you to the directory listed. Both cd and ls can accept both relative file paths or absolute paths.
+h3 Paths
+p Absolute paths start from the root directory 
+    <code>/</code>  an example
+    <code>/home/cyberpatriot/Music</code>
+p Relative paths start from the current working directory 
+    <code>./</code>  and example
+    <code>./Music</code> . Relative paths can also have two dots to signal the directory above
+    <code>../John/</code> .
+hr
+h2 Basic Navigation hands on if possible
+p This basic list of commands will give you a bit of a taste of the behavior of these commands do. (The text after the pound sign 
+    <code>#</code>  are comments that tell you what each command will be doing.)
+pre.hljs.language-sh
+    code.block.
+        cd #Change directory to home ~
+        pwd #Prints the current directory
+        ls #Prints whats inside the current directory
+        cd ./Music #Changes directory to ~/Music
+        pwd #Prints the current directory
+        ls #Prints whats inside the current directory
+        cd ../Documents #Changes the directory to ~/Documents
+        pwd #Prints the Current Working directory
+        cd #Change directory to home ~
+        pwd #Prints the Current Working directory
+
+hr
+h2 Manuals and Command usage
+p The 
+    <code>man</code>  command is a vital tool when learning linux systems. These contain manuals that are published with most commands used. This documentation shows every option that there is to configure about a command.
+p Try running 
+    <code>man man</code>  now to take a look at the manual for man. To quit out of the manual hit
+    <code>Q</code> .
+p Most commands also have a 
+    <code>-h</code>  or
+    <code>--help</code>  command which give a brief explanation of what options exist and if the option requires any arguments (other inputs).
+p Try running 
+    <code>ls --help</code>  now to take a look at the help summary for
+    <code>ls</code>
+p Think about what the 
+    <code>-1</code>  option will do on ls then try it yourself.
+hr
+h2 File Manipulation Commands
+h3 cp
+p
+    <code>cp</code>  stands for “CoPy”. This copies a file or directory to a new location. It can copy from many sources and into one destination by listing multiple sources before the destination.
+h3 mv
+p
+    <code>mv</code>  stands for “MoVe”. This is used to move or rename a file or directory. Just like
+    <code>cp</code>  it can copy from many sources and into one destination by listing multiple sources before the destination.
+h3 touch
+p
+    <code>touch</code>  touches (open and immediately close it) a file and can create empty files if the file name specified does not exist.
+h3 rm
+p
+    <code>rm</code>  stands for “ReMove”. This command removes a file (or directory with the right options).
+    <code>rm</code>  can remove multiple files or directories at the same time by having multiple paths after
+    <code>rm</code>
+hr
+h2 Basic file manipulation practical
+p This basic list of commands will give you a bit of a taste of the behavior of these commands do. (The text after the pound sign 
+    <code>#</code>  are comments that tell you what each command will be doing.)
+pre.hljs.language-sh
+    code.block.
+        cd #Changes directory to home
+        touch Documents/a #Creates the file a inside Documents
+        cp Documents/a b #Copys the file a to the file b
+        mv b c #Moves file b into file b
+        ls ./Documents #Prints the files inside the Documents directory
+        rm c ./Documents/a #Removes the files c and and a from the
+        ls ./Documents #Prints the files inside the Documents directory
+
+h2 File Contents and Output Redirection
+p In linux there is the ability to redirect the output of a command to be sent to a file via the file redirection
+pre.hljs.language-sh
+    code.block.
+        cd #Changes your directory to your home directory
+        echo "Hello" > hello #Prints hello to the file hello
+        echo "World!" > world #Prints world to the file world
+        ls #Prints the files inside the Documents directory
+        cat hello world > helloworld #Prints the two files hello and world to the file helloworld
+        ls #Prints the files inside the Documents directory
+        cat helloworld #Prints the file to the terminal
+        file helloworld #Prints the file type of the file helloworld
+        file Music/4.mp3 #Prints the file type of the file 4.mp3
+        rm hello world helloworld #Removes the files created during the lesson
+
+hr
+h2 File editing
+h3 gedit
+p gedit is the easiest text editor on ubuntu. It is a graphical program and allows you to edit text files. To open a file type
+    <code>gedit</code>  then the file name.
+p Try running 
+    <code>gedit Documents/napier.txt</code>  now to take a look at the file
+    <code>napier.txt</code> . You can exit by hitting the red x in the left corner.
+h3 nano
+p nano is the easiest terminal text editor on ubuntu. It is a text only program and allows you to edit text files. To open a file type 
+    <code>nano</code>  then the file name.
+p Try running 
+    <code>nano Documents/napier.txt</code>  now to take a look at the file
+    <code>napier.txt</code> . You can exit by hitting
+    <code>ctrl + x</code>  and following th prompts.
+hr
+h3 Small Practical on file editing
+pre.hljs.language-sh
+    code.block.
+        #This makes a folder
+        sudo mkdir /etc/lightdm/lightdm.conf.d
+        #Output redirection to make a config file
+        sudo sh -c 'printf "[SeatDefaults]\nallow-guest=false\n" > /etc/lightdm/lightdm.conf.d/50-no-guest.conf'
+        #Change directory to to the lightdm config area
+        cd /etc/lightdm/lightdm.conf.d/
+        #opens the config file that was just made in nano
+        sudo nano 50-no-guest.conf
+
+include /styles/footer.pug

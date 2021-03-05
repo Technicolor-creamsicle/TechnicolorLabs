@@ -1,0 +1,20 @@
+{
+  "module": "piforever",
+  "type": "module",
+  "name": "piforever",
+  "version": "0.0.1",
+  "description": "Infinite π generation module",
+  "main": "gen.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Technicolor",
+  "license": "MPL-2.0",
+  "homepage": "https://github.com/Technicolor-creamsicle/Technicolor-creamsicle.github.io#readme",
+  "dependencies": {
+    "bignumber.js": "^9.0.1",
+    "prettier": "^2.2.1",
+    "pug": "^3.0.2"
+  },
+  "private": true
+}
