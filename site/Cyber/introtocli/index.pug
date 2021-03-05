@@ -1,12 +1,12 @@
 doctype html
 head
     meta(charset="UTF-8")
-    link(rel='stylesheet', href='/styles/main.css', type='text/css')
+    link(rel='stylesheet', href='/styles/assets/main.css', type='text/css')
     // importing fun stuff
 title Intro to CLI
 h2.neo Introduction to the Command Line and Filesystem
 h2 The Linux Filesystem
-p If thought of like a tree there is a “Root” Directory denoted at 
+p If thought of like a tree there is a “Root” Directory denoted at
     <code>/</code> . Then after the root it begins to branch out into directories or more commonly known as folders. On the branches there are more branches but also leaves which would be individual files.
 p Every directory and file name is CaSe SeNsItIvE.
 hr
@@ -38,7 +38,7 @@ ol
     li Hit
         <code>enter</code>  or click the icon labeled
         <code>Terminal</code>
-p If you are on a virtual machine hosted on your own computer or have a computer running ubuntu you can use the shortcut 
+p If you are on a virtual machine hosted on your own computer or have a computer running ubuntu you can use the shortcut
     <code>ctrl + alt + T</code>  to open a terminal.
 hr
 h2 What can you do with the Terminal?
@@ -59,16 +59,16 @@ h3 cd
 p
     <code>cd</code>  stands for “change directory”. Most of the time you will be running cd with a directory as an option to brings you to the directory listed. Both cd and ls can accept both relative file paths or absolute paths.
 h3 Paths
-p Absolute paths start from the root directory 
+p Absolute paths start from the root directory
     <code>/</code>  an example
     <code>/home/cyberpatriot/Music</code>
-p Relative paths start from the current working directory 
+p Relative paths start from the current working directory
     <code>./</code>  and example
     <code>./Music</code> . Relative paths can also have two dots to signal the directory above
     <code>../John/</code> .
 hr
 h2 Basic Navigation hands on if possible
-p This basic list of commands will give you a bit of a taste of the behavior of these commands do. (The text after the pound sign 
+p This basic list of commands will give you a bit of a taste of the behavior of these commands do. (The text after the pound sign
     <code>#</code>  are comments that tell you what each command will be doing.)
 pre.hljs.language-sh
     code.block.
@@ -85,18 +85,18 @@ pre.hljs.language-sh
 
 hr
 h2 Manuals and Command usage
-p The 
+p The
     <code>man</code>  command is a vital tool when learning linux systems. These contain manuals that are published with most commands used. This documentation shows every option that there is to configure about a command.
-p Try running 
+p Try running
     <code>man man</code>  now to take a look at the manual for man. To quit out of the manual hit
     <code>Q</code> .
-p Most commands also have a 
+p Most commands also have a
     <code>-h</code>  or
     <code>--help</code>  command which give a brief explanation of what options exist and if the option requires any arguments (other inputs).
-p Try running 
+p Try running
     <code>ls --help</code>  now to take a look at the help summary for
     <code>ls</code>
-p Think about what the 
+p Think about what the
     <code>-1</code>  option will do on ls then try it yourself.
 hr
 h2 File Manipulation Commands
@@ -117,7 +117,7 @@ p
     <code>rm</code>
 hr
 h2 Basic file manipulation practical
-p This basic list of commands will give you a bit of a taste of the behavior of these commands do. (The text after the pound sign 
+p This basic list of commands will give you a bit of a taste of the behavior of these commands do. (The text after the pound sign
     <code>#</code>  are comments that tell you what each command will be doing.)
 pre.hljs.language-sh
     code.block.
@@ -149,13 +149,13 @@ h2 File editing
 h3 gedit
 p gedit is the easiest text editor on ubuntu. It is a graphical program and allows you to edit text files. To open a file type
     <code>gedit</code>  then the file name.
-p Try running 
+p Try running
     <code>gedit Documents/napier.txt</code>  now to take a look at the file
     <code>napier.txt</code> . You can exit by hitting the red x in the left corner.
 h3 nano
-p nano is the easiest terminal text editor on ubuntu. It is a text only program and allows you to edit text files. To open a file type 
+p nano is the easiest terminal text editor on ubuntu. It is a text only program and allows you to edit text files. To open a file type
     <code>nano</code>  then the file name.
-p Try running 
+p Try running
     <code>nano Documents/napier.txt</code>  now to take a look at the file
     <code>napier.txt</code> . You can exit by hitting
     <code>ctrl + x</code>  and following th prompts.
