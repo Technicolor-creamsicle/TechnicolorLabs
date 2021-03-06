@@ -1,7 +1,39 @@
 @font-face {
     font-family: 'JetBrains Mono';
-    src: url('/styles/JetBrainsMono/web/eot/JetBrainsMono-Regular.eot'); /* IE9 Compat Modes */
-    src: url('/styles/JetBrainsMono/web/eot/JetBrainsMono-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('/styles/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2') format('woff2'), /* Modern Browsers */ url('/styles/JetBrainsMono/ttf/JetBrainsMono-Regular.ttf') format('truetype') /* Safari, Android, iOS */
+    font-weight: normal;
+
+    src: url('/styles/assets/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2') format('woff2'),
+    url('/styles/assets/JetBrainsMono/ttf/JetBrainsMono-Regular.ttf') format('truetype'),
+    url("/styles/assets/JetBrainsMono/web/woff/JetBrainsMono-Regular.woff") format('woff');
+}
+
+@font-face {
+    font-family: 'Public Sans';
+    font-weight: normal;
+
+    src: url("/styles/assets/public-sans-v1.008/binaries/webfonts/PublicSans-Regular.woff2") format('woff2'),
+    url("/styles/assets/public-sans-v1.008/binaries/webfonts/PublicSans-Regular.ttf") format('truetype'),
+    url("/styles/assets/public-sans-v1.008/binaries/webfonts/PublicSans-Regular.woff") format('woff');
+}
+
+@font-face {
+    font-family: 'Public Sans Bold';
+    font-weight: bold;
+
+    src: url("/styles/assets/public-sans-v1.008/binaries/webfonts/PublicSans-Black.woff2") format('woff2'),
+    url("/styles/assets/public-sans-v1.008/binaries/webfonts/PublicSans-Black.ttf") format('truetype'),
+    url("/styles/assets/public-sans-v1.008/binaries/webfonts/PublicSans-Black.woff") format('woff');
+
+}
+
+strong {
+    font-weight: bold;
+    font-family: "Public Sans Bold", sans-serif;
+}
+
+b {
+    font-weight: bold;
+    font-family: "Public Sans Bold", sans-serif;
 }
 
 body {
@@ -12,7 +44,7 @@ body {
     color: #f5f5f5;
     padding: 0 10px;
     background-color: #111111;
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Public Sans', sans-serif;
     alignment: center;
     overflow-x: hidden;
 }
