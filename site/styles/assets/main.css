@@ -73,6 +73,7 @@ a:hover {
 /*Code blocks*/
 code {
     background-color: rgba(255, 0, 0, 0.5);
+    font-family: "JetBrains Mono", monospace;
 }
 
 code.block {
