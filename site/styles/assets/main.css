@@ -96,6 +96,19 @@ div.footer h5 {
     padding: 10px
 }
 
+.left {
+    float: left
+}
+
+.right {
+    float: right
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+}
+
 /*Does the cool thing*/
 h1.neo {
     color: red;

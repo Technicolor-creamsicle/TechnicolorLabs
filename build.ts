@@ -14,6 +14,10 @@ exec("'node_modules/pug-cli/index.js' --out ./dist/ --basedir ./site/ ./site", {
             console.error('pug error: ' + stderr);
     })
 
+fs.copy('./site/lib', './dist/lib', () => {
+    console.log('lib: Moved')
+})
+
 fs.copy('./site/styles/assets', './dist/styles/assets', () => {
     console.log('assets: Moved')
 })
